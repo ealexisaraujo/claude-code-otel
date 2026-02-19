@@ -12,7 +12,7 @@ Claude Code exports OTLP gRPC to `localhost:4317`. Two pipelines flow through th
 - **Metrics pipeline:** OTel Collector -> Prometheus exporter (`:8889`) -> Prometheus (`:9090`) -> Grafana
 - **Events/logs pipeline:** OTel Collector -> OTLP HTTP -> Loki (`:3100`) -> Grafana
 
-Four Docker containers: `otel-collector` (otelcol-contrib), `loki` (3.4.2), `prometheus`, `grafana` (on `:3001`).
+Five Docker containers: `otel-collector` (otelcol-contrib), `loki` (3.4.2), `prometheus`, `grafana` (on `:3001`), `grafana-renderer` (image rendering).
 
 ## Commands
 

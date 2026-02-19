@@ -53,6 +53,7 @@ Per-prompt, per-tool, per-API-request detail.
 | `otel-collector` | `otel/opentelemetry-collector-contrib:latest` | 4317, 4318, 8889 | Receives OTLP, routes to Prometheus + Loki |
 | `loki` | `grafana/loki:3.4.2` | 3100 | Event/log storage with OTLP ingestion |
 | `prometheus` | `prom/prometheus:latest` | 9090 | Time-series metrics, 200h retention |
+| `grafana-renderer` | `grafana/grafana-image-renderer:latest` | 8081 (internal) | Server-side PNG rendering for sharing/alerts |
 | `grafana` | `grafana/grafana:latest` | 3001 | Dashboards (admin/ClaudeCode2026) |
 
 ## Port Map

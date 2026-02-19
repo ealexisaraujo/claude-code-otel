@@ -56,6 +56,7 @@ This project runs four Docker containers:
 | **Prometheus** | Stores metrics (cost, tokens, sessions) |
 | **Loki** | Stores events (prompts, tool calls, API requests) |
 | **Grafana** | Visualizes everything in two dashboards |
+| **Image Renderer** | Enables PNG export and sharing of dashboard panels |
 
 The setup script configures the environment variables that tell Claude Code where to send telemetry.
 
