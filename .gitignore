@@ -1,0 +1,16 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker data (local volumes are managed by Docker, not git)
+data/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Claude Code local memory
+.claude/
